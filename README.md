@@ -31,9 +31,6 @@ You can view and run the analysis by opening the `Bank_Churn_Prediction.ipynb` J
 The results of the analysis, including the best performing model and insights derived from the data, can be found in the Jupyter Notebook.
 
 
-## Author
-Weichao Yang
-
 ## Acknowledgments
 - Thanks to anyone who contributed to the project.
 - Special thanks to Mr. John for supporting this project.
