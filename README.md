@@ -1,48 +1,43 @@
-# Custiomer-Churn
-Bank Churn Prediction
-Introduction
-This project aims to predict bank customer churn using various machine learning algorithms. Customer churn refers to the loss of clients or customers from a service. Understanding and predicting customer churn is essential for maintaining customer satisfaction and business growth.
+# Bank Customer Churn Prediction
 
-Repository Contents
-Bank_Churn_Prediction.ipynb: Main Jupyter Notebook containing the data analysis, preprocessing, and model training steps.
-data/: Folder containing the datasets used for the project.
-models/: Folder containing the trained machine learning models.
-figures/: Folder containing any plots or visualizations.
-Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-TensorFlow
-Matplotlib
-Installation
-Clone the repository
+## Overview
+This project aims to predict bank customer churn using various machine learning models. It involves preprocessing the data, exploring different features that might affect the customer churn rate, and building predictive models.
 
-Install the required dependencies using:
+## Dataset
+The dataset used in this project consists of information about bank customers, including demographics, account details, and whether they have churned or not.
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook:
+## Requirements
+- Python 3.x
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
 
-bash
-Copy code
-jupyter notebook Bank_Churn_Prediction.ipynb
-Usage
-Follow the instructions and comments in the Bank_Churn_Prediction.ipynb notebook to understand the data preprocessing, model selection, and prediction steps.
+## Usage
+You can view and run the analysis by opening the `Bank_Churn_Prediction.ipynb` Jupyter Notebook. Make sure to install the required libraries mentioned above.
 
-Models
-The project includes various machine learning models such as:
+## Structure
+- `Bank_Churn_Prediction.ipynb`: Main Jupyter Notebook containing the data analysis and machine learning models.
 
-Logistic Regression
-Decision Trees
-Random Forest
-Neural Networks
-Results
-The results section in the notebook provides an overview of the model's performance, including accuracy, precision, recall, and F1-score.
+## Analysis Steps
+1. **Data Cleaning and Preprocessing**: Handling missing values and encoding categorical variables.
+2. **Exploratory Data Analysis (EDA)**: Visualizing the data to understand the trends and patterns.
+3. **Feature Engineering**: Creating new features that might help in predicting the churn.
+4. **Model Training**: Training different machine learning models and selecting the best one.
+5. **Evaluation**: Evaluating the selected model using various metrics like accuracy, precision, recall, etc.
 
-Contributing
-Feel free to contribute to this project by submitting issues, pull requests, or providing feedback.
+## Results
+The results of the analysis, including the best performing model and insights derived from the data, can be found in the Jupyter Notebook.
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Author
+Weichao Yang
+
+## Acknowledgments
+- Thanks to anyone who contributed to the project.
+- Special thanks to Mr. John for supporting this project.
+
+---
+
+Feel free to contribute to this project by submitting pull requests or opening issues.
